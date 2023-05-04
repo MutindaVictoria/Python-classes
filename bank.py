@@ -2,7 +2,7 @@ class Bank_Account:
     
     num_accounts = 0
    
-    def __init__(self, account_number, balance, owner):
+    def __init__(self, account_number, balance, name):
         self.account_number = account_number
         self.balance = balance
         self.name = name
