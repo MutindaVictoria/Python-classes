@@ -27,7 +27,7 @@ class Student:
     def years_of_birth(self):
         return f"{2023-self.age}"
 
-    def show_initials(self.name):
+    def show_initials(self):
         return f"{self.first_name[0].Upper()},{self.last_name[0].Upper()}"
 
 
